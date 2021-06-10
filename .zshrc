@@ -10,7 +10,7 @@
 export ZSH="/Users/$USER/.oh-my-zsh"
 
 
-ZSH_THEME=""
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 plugins=( git zsh-syntax-highlighting zsh-completions )
 

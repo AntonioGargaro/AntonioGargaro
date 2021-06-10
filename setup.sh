@@ -2,6 +2,9 @@
 
 echo '\nSetting up Mac OS with Developer preferences...\n'
 
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+brew install cask
 
 if [ -d "/Applications/iTerm.app" ]; then
     echo "iTerm installed, skipping"
